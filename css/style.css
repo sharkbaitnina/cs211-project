@@ -137,6 +137,25 @@ footer {
     width: 200px;
 }
 
+.thank-you {
+    text-align: center;
+    color: #9B3922;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.team-logo {
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 400px;
+}
+
+.team-logo img {
+    max-width: 100%;
+    border-radius: 8px;
+    border: 1px solid #481E14;
+}
+
 /* Contact Page Styles */
 .contact-info {
     display: grid;

@@ -3,42 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Horror-Themed Coffee">
-    <title>About Us | Roast The Dead Coffee</title>
+    <meta name="description" content="About Roast The Dead Coffee">
+    <title>About | Roast The Dead Coffee</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
+<header>
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <a href="home.html"><img src="css/assets/rtd.png" alt="Roast The Dead Logo" style="width:65px;height:65px;"></a>            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="menu" id="menu">
                 <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="products.html">Products</a></li>
-                <li><a href="about.html" class="active">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section class="about-section">
-            <h1>Our Story</h1>
-            <p>Cozy coffee house serving creative drinks in a horror-themed space with decorations and old TV shows.</p>
-            
-            <h2>Our Philosophy</h2>
-            <p>A family owned coffee shop where Halloween and Horror is 365 days a year. We can't wait to serve our community!</p>
-            
-            <h2>Thank You!</h2>
-            <p class="thank-you">We appreciate your support and can't wait to serve you!</p>
-            
-            <div class="team-logo">
-                <img src="css/assets/logo.jpg" alt="Roast The Dead Coffee Team">
-            </div>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2023 Roast The Dead Coffee. All rights reserved.</p>
-    </footer>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="about-section">
+        <h1>Our Story</h1>
+        <p>Cozy coffee house serving creative drinks in a horror-themed space with decorations and old TV shows.</p>
+        
+        <h2>Our Philosophy</h2>
+        <p>A family owned coffee shop where Halloween and Horror is 365 days a year. We can't wait to serve our community!</p>
+        
+        <h2>Thank You!</h2>
+        <p class="thank-you">We appreciate your support and can't wait to serve you!</p>
+        
+        <div class="team-logo">
+            <img src="css/assets/logo.jpg" alt="Roast The Dead Coffee Team">
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2023 Roast The Dead Coffee. All rights reserved.</p>
+</footer>
 </body>
 </html>

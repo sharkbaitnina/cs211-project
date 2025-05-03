@@ -8,33 +8,37 @@ body {
     background: #f8f8f8;
 }
 
-header {
-    background: #0C0C0C;
+/* Updated header styles to Bootstrap navbar classes */
+.navbar {
+    background: #0C0C0C !important;
     color: white;
-    padding: 1rem 0;
+    padding: 1rem;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    margin: 0 1rem;
-}
-
-nav a {
+.navbar .navbar-brand {
     color: white;
+    font-weight: bold;
     text-decoration: none;
+}
+
+.navbar .navbar-brand:hover {
+    color: #9B3922;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-link {
+    color: white;
     padding: 0.5rem 1rem;
     border-radius: 4px;
 }
 
-nav a:hover, nav a.active {
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
     background: #9B3922;
+    color: white;
 }
 
 main {
@@ -57,6 +61,23 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Override to make toggler icon white */
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
 }
 
 .menu-toggle {
@@ -96,10 +117,24 @@ footer {
 /* Home Page Styles */
 .hero {
     background: url('assets/pumpkin_coffee.jpg') center/cover;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 4rem 1rem;
     margin-bottom: 2rem;
+    position: relative;
+}
+
+.hero-text-overlay {
+    position: relative;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .hero h1 {
@@ -230,8 +265,8 @@ footer {
 }
 
 .contact-form button {
-    background: #F2613F;
-    color: white;
+    background: #000000;
+    color: #CA4A2C;
     border: none;
     padding: 0.75rem 1.5rem;
     border-radius: 4px;
@@ -241,38 +276,5 @@ footer {
 
 .contact-form button:hover {
     background: #9B3922;
+    color: #D0D0D0;
 }
-
-/* logo */
-/* .logo {
-    position: relative;
-    display: inline-block;
-}
-
-.logo img {
-    display: block;
-    position: relative; 
-    z-index: 2; 
-    transition: opacity 0.3s ease;
-}
-
-.logo:hover img {
-    opacity: 0.3;
-}
-
-.logo::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #9B3922;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    z-index: 1;
-}
-
-.logo:hover::after {
-    opacity: 1; 
-} */

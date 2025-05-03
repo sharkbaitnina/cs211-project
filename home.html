@@ -5,34 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Horror-Themed Coffee Shop">
     <title>Home | Roast The Dead Coffee</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-..." crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-<header>
-    <nav>
-        <div class="navbar">
-            <div class="logo">
-                <!-- <img><a href="home.html">Logo</a> -->
-                <a href="home.html"><img src="/css/assets/logo.jpg" alt="Roast The Dead Logo" style="width:55px;height:55px;"></a>            </div>
-            <div class="menu-toggle" id="menuToggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="menu" id="menu">
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-</header>
+    <header id="header-component"></header>
 <main>
     <div class="hero">
-        <h1>Welcome to Roast The Dead Coffee</h1>
-        <p>Year Round Spooky Treat, Here To Satisfy Every Craving!</p>
+        <div class="hero-text-overlay">
+            <h1>Welcome to Roast The Dead Coffee</h1>
+            <p>Year Round Spooky Treat, Here To Satisfy Every Craving!</p>
+        </div>
     </div>
     <main>        
         <section class="featured">
@@ -52,8 +36,10 @@
         </section>
     </main>
     
-    <footer>
-        <p>&copy; 2024 Roast The Dead Coffee. All rights reserved.</p>
-    </footer>
+        <footer id="footer-component"></footer>
+        <!-- <p>&copy; 2024 Roast The Dead Coffee. All rights reserved.</p> -->
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" ...></script>
+<script src="app.js"></script>
 </body>
 </html>

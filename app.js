@@ -77,7 +77,38 @@ const header = Vue.createApp({
     template: 
     `<footer>
         <p>&copy; 2023 Roast The Dead Coffee. All rights reserved.</p>
-    </footer>` // paste your footer HTML here
+    </footer>`
   });
   
   footer.mount('#footer-component');
+
+  // Products App
+  const productsApp = Vue.createApp({
+    data() {
+      return {
+        products: []
+      }
+    },
+    computed: {
+      categories() {
+        const cats = {};
+        this.products.forEach(product => {
+          if (!cats[product.category]) {
+            cats[product.category] = [];
+          }
+          cats[product.category].push(product);
+        });
+        return cats;
+      }
+    },
+    mounted() {
+      fetch('products.json')
+        .then(response => response.json())
+        .then(data => {
+          this.products = data;
+        })
+        .catch(error => console.error('Error loading products:', error));
+    }
+  });
+  
+  productsApp.mount('#products-component');

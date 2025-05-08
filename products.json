@@ -1,0 +1,86 @@
+[
+  {
+  "title": "Vorhees",
+  "category": "The Fogs",
+  "description": "Cold brew with toasted marshmallow cold foam.",
+  "price": "$5.50",
+  "image": "css/assets/vorhees.jpg"
+  },
+  {
+  "title": "Hi Ya' Georgie",
+  "category": "The Fogs",
+  "description": "Cold brew cold foam with buttered popcorn.",
+  "price": "$5.50",
+  "image": "css/assets/hi-ya-georgie.jpg"
+  },
+  {
+  "title": "Freddy's Nightmare",
+  "category": "The Fogs",
+  "description": "Cold brew with red velvet cold foam.",
+  "price": "$5.50",
+  "image": "css/assets/freddys-nightmare.jpg"
+  },
+  {
+  "title": "Myers",
+  "category": "The Fogs",
+  "description": "Cold brew with pumpkin spice cold foam.",
+  "price": "$5.50",
+  "image": "css/assets/the-myers.jpg"
+  },
+  {
+  "title": "Here's Jonny",
+  "category": "The Fogs",
+  "description": "Cold brew with bourbon flavored caramel cold foam & heath bits.",
+  "price": "$5.50",
+  "image": "css/assets/freddys-nightmare.jpg"
+  },
+  {
+  "title": "Salty Seas",
+  "category": "The Fogs",
+  "description": "Sea salt caramel cold brew with cold foam.",
+  "price": "$5.50",
+  "image": "css/assets/freddys-nightmare.jpg"
+  },
+  {
+    "title": "Dollface",
+    "category": "Killer Drinks",
+    "description": "Raspberry mocha.",
+    "price": "$5.50",
+    "image": "css/assets/vorhees.jpg"
+    },
+    {
+    "title": "Hellrazor",
+    "category": "Killer Drinks",
+    "description": "Spiced mocha cold brew and toffee.",
+    "price": "$5.50",
+    "image": "css/assets/hi-ya-georgie.jpg"
+    },
+    {
+    "title": "6 FT. Under",
+    "category": "Killer Drinks",
+    "description": "Cookies and cream. BLENDED ONLY",
+    "price": "$5.50",
+    "image": "css/assets/freddys-nightmare.jpg"
+    },
+    {
+    "title": "Worms Michael",
+    "category": "Killer Drinks",
+    "description": "Vanilla bean strawberry cold brew.",
+    "price": "$5.50",
+    "image": "css/assets/the-myers.jpg"
+    },
+    {
+    "title": "Children Of The Oats",
+    "category": "Killer Drinks",
+    "description": "Oatmilk espresso latte with mocha and cinnamon.",
+    "price": "$5.50",
+    "image": "css/assets/freddys-nightmare.jpg"
+    },
+    {
+    "title": "La Churrona",
+    "category": "Killer Drinks",
+    "description": "Horchata and cinnamon cold brew.",
+    "price": "$5.50",
+    "image": "css/assets/freddys-nightmare.jpg"
+    }
+]

@@ -39,8 +39,15 @@
   "category": "The Fogs",
   "description": "Sea salt caramel cold brew with cold foam.",
   "price": "$5.50",
-  "image": "css/assets/freddys-nightmare.jpg"
+  "image": "css/assets/salty_seas_fog.jpg"
   },
+  {
+    "title": "Purge",
+    "category": "Killer Drinks",
+    "description": "White chocolate.",
+    "price": "$5.50",
+    "image": "css/assets/vorhees.jpg"
+    },
   {
     "title": "Dollface",
     "category": "Killer Drinks",
@@ -53,7 +60,7 @@
     "category": "Killer Drinks",
     "description": "Spiced mocha cold brew and toffee.",
     "price": "$5.50",
-    "image": "css/assets/hi-ya-georgie.jpg"
+    "image": "css/assets/hellrazor.jpg"
     },
     {
     "title": "6 FT. Under",
@@ -67,20 +74,111 @@
     "category": "Killer Drinks",
     "description": "Vanilla bean strawberry cold brew.",
     "price": "$5.50",
-    "image": "css/assets/the-myers.jpg"
+    "image": "css/assets/freddys-nightmare.jpg"
     },
     {
     "title": "Children Of The Oats",
     "category": "Killer Drinks",
-    "description": "Oatmilk espresso latte with mocha and cinnamon.",
+    "description": "Cinnamon bun & Oatmilk with vegan mocha drizzle.",
     "price": "$5.50",
-    "image": "css/assets/freddys-nightmare.jpg"
+    "image": "css/assets/children_ot_oats.png"
     },
+    {
+      "title": "Merry Krampus",
+      "category": "Killer Drinks",
+      "description": "Peppermint mocha.",
+      "price": "$5.50",
+      "image": "css/assets/vorhees.jpg"
+      },
+      {
+        "title": "Salty Seas",
+        "category": "Killer Drinks",
+        "description": "Sea salt caramel.",
+        "price": "$5.50",
+        "image": "css/assets/vorhees.jpg"
+        },
     {
     "title": "La Churrona",
     "category": "Killer Drinks",
     "description": "Horchata and cinnamon cold brew.",
     "price": "$5.50",
     "image": "css/assets/freddys-nightmare.jpg"
-    }
+    },
+    {
+      "title": "Hitchcock",
+      "category": "Killer Drinks",
+      "description": "White and dark chocolate.",
+      "price": "$5.50",
+      "image": "css/assets/vorhees.jpg"
+      },
+    {
+      "title": "Creepsickle",
+      "category": "Demonade",
+      "description": "Strawberry shortcake lemonade.",
+      "price": "$5.50",
+      "image": "css/assets/freddys-nightmare.jpg"
+      },
+      {
+        "title": "Shark Water",
+        "category": "Demonade",
+        "description": "Blue Raspberry lemonade with a shark.",
+        "price": "$5.50",
+        "image": "css/assets/freddys-nightmare.jpg"
+        },
+        {
+          "title": "Voodoo Doll",
+          "category": "Demonade",
+          "description": "Mint mojito lemonade.",
+          "price": "$5.50",
+          "image": "css/assets/freddys-nightmare.jpg"
+          },
+          {
+            "title": "Lugosi",
+            "category": "Demonade",
+            "description": "Strawberry lemonade.",
+            "price": "$5.50",
+            "image": "css/assets/freddys-nightmare.jpg"
+            },
+            {
+              "title": "Killer Clown",
+              "category": "Demonade",
+              "description": "Cotton Candy.",
+              "price": "$5.50",
+              "image": "css/assets/freddys-nightmare.jpg"
+              },
+              {
+                "title": "Mental Mango",
+                "category": "Killer Teas",
+                "description": "Blackberry mmango green jasmine tea.",
+                "price": "$5.50",
+                "image": "css/assets/freddys-nightmare.jpg"
+                },
+                {
+                  "title": "Dark Mistress",
+                  "category": "Killer Teas",
+                  "description": "Blueberry black tea.",
+                  "price": "$5.50",
+                  "image": "css/assets/freddys-nightmare.jpg"
+                  },
+                  {
+                    "title": "Helter Skelter",
+                    "category": "Killer Teas",
+                    "description": "Black tea with lemonade, peach & blood orange.",
+                    "price": "$5.50",
+                    "image": "css/assets/freddys-nightmare.jpg"
+                    },
+                    {
+                      "title": "Black Widow",
+                      "category": "Killer Teas",
+                      "description": "Black or green jasmine tea with desert pear.",
+                      "price": "$5.50",
+                      "image": "css/assets/freddys-nightmare.jpg"
+                      },
+                      {
+                        "title": "Resurrection Tea",
+                        "category": "Killer Teas",
+                        "description": "Black or green jasmine tea with mint. Lemonade & honey. Served Hot!",
+                        "price": "$5.50",
+                        "image": "css/assets/freddys-nightmare.jpg"
+                        }
 ]

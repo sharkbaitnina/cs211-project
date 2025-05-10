@@ -12,12 +12,13 @@
 <body>
     <header id="header-component"></header>
 <main>
-    <h1>Our Coffee Selection</h1>
+    <!-- <h1>Our Coffee Selection</h1> -->
     
     <div id="products-component" class="container p-4">
-        <h1 class="mb-4">Products</h1>
+        <h1 class="mb-4">Scary Good Drinks</h1>
         <div v-for="(products, category) in categories" :key="category" class="mb-5">
           <h2>{{ category }}</h2>
+          <p v-if="categoryCaptions[category]" class="category-caption">{{ categoryCaptions[category] }}</p>
           <div class="row g-4">
             <div class="col-md-4" v-for="product in products" :key="product.title">
               <div class="card h-100">
@@ -109,7 +110,7 @@
             <img src="css/assets/vorhees.jpg" alt="Vorhees Fog coffee drink" class="product-image">
             <h2>Vorhees</h2>
             <p class="price">$3.75</p>
-            <p>Toasted marshmellow</p>
+            <p>Toasted marshmallow</p>
         </div>
 
         <div class="product">
@@ -138,7 +139,7 @@
             <img src="css/assets/vorhees.jpg" alt="Vorhees Fog coffee drink" class="product-image">
             <h2>Here's Jonny</h2>
             <p class="price">$3.75</p>
-            <p>Burbon flavored caramel cold brew with heath bits</p>
+            <p>Bourbon flavored caramel cold brew with heath bits</p>
         </div>
 
         <div class="product">

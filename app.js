@@ -3,7 +3,7 @@ const header = Vue.createApp({
       <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="home.html">
-<img src="css/assets/rtd.png" alt="Roast The Dead Coffee Logo" width="30" height="30">
+<img src="css/assets/rtd.png" alt="Roast The Dead Coffee Logo" width="70" height="70">
             Roast The Dead Coffee
           </a>
          <button
@@ -86,7 +86,13 @@ const header = Vue.createApp({
   const productsApp = Vue.createApp({
     data() {
       return {
-        products: []
+        products: [],
+        categoryCaptions: {
+          "The Fogs": "Iced Cold Brew With Cold Foam",
+          "Killer Drinks": "Most Drinks Blended With Cold Brew, Iced or Hot Made With Espresso",
+          "Demonade": "Refreshing and Tart Lemonade Drinks",
+          "Killer Teas": "Refreshing Black or Green Tea Drinks"
+        }
       }
     },
     computed: {

@@ -86,34 +86,21 @@ const header = Vue.createApp({
   const productsApp = Vue.createApp({
     data() {
       return {
-        products: [],
-        categoryCaptions: {
-          "The Fogs": "Iced Cold Brew With Cold Foam",
-          "Killer Drinks": "Most Drinks Blended With Cold Brew, Iced or Hot Made With Espresso",
-          "Demonade": "Refreshing and Tart Lemonade Drinks",
-          "Killer Teas": "Refreshing Black or Green Tea Drinks"
-        }
-      }
-    },
-    computed: {
-      categories() {
-        const cats = {};
-        this.products.forEach(product => {
-          if (!cats[product.category]) {
-            cats[product.category] = [];
-          }
-          cats[product.category].push(product);
-        });
-        return cats;
-      }
+        products: []
+      };
     },
     mounted() {
-      fetch('products.json')
+      const spaceId = '5wuki13gf3no';         // Replace with your Space ID
+      const accessToken = 'ojNLWXmbC21RSEsmx0v37nV_Y5AgGXoQ0GZFPQFOL88'; // Replace with your Access Token
+      const contentType = 'product'; // Replace with your Content Type ID
+      const url = `https://cdn.contentful.com/spaces/${spaceId}/entries?access_token=${accessToken}&content_type=${contentType}`;
+
+      fetch(url)
         .then(response => response.json())
         .then(data => {
-          this.products = data;
+          this.products = data.items.map(item => item.fields);
         })
-        .catch(error => console.error('Error loading products:', error));
+        .catch(console.error);
     }
   });
   

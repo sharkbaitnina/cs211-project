@@ -83,25 +83,21 @@ const header = Vue.createApp({
   footer.mount('#footer-component');
 
   // Products App
-  const productsApp = Vue.createApp({
-    data() {
-      return {
-        products: []
-      };
-    },
-    mounted() {
-      const spaceId = '5wuki13gf3no';         // Replace with your Space ID
-      const accessToken = 'ojNLWXmbC21RSEsmx0v37nV_Y5AgGXoQ0GZFPQFOL88'; // Replace with your Access Token
-      const contentType = 'product'; // Replace with your Content Type ID
-      const url = `https://cdn.contentful.com/spaces/${spaceId}/entries?access_token=${accessToken}&content_type=${contentType}`;
-
-      fetch(url)
-        .then(response => response.json())
-        .then(data => {
-          this.products = data.items.map(item => item.fields);
-        })
-        .catch(console.error);
-    }
-  });
+  // const productsApp = Vue.createApp({
+  //   data() {
+  //     return {
+  //       products: []
+  //     };
+  //   },
+  //   mounted() {
+      
+  //     fetch('/.netlify/functions/fetchProducts')
+  //       .then(response => response.json())
+  //       .then(data => {
+  //         this.products = data.items.map(item => item.fields);
+  //       })
+  //       .catch(console.error);
+  //   }
+  // });
   
-  productsApp.mount('#products-component');
+  // productsApp.mount('#products-component');
